@@ -6,6 +6,13 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   label {
-    color: goldenrod;
+    color: blue;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  body {
+    padding: 10px;
+  }
+  div {
+    text-align: center;
+    padding: 100px;
   }
