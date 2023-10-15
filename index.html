@@ -6,16 +6,26 @@
       <script defer src="app.js"></script>
     </head>
     <body>
-      <h1>GTclasshub: Does this class exist?</h1>
-      <label for="className">Enter the class you want to find:</label><br><br>
-      <input type="text" id="className" name="className" placeholder="Class Name" padding=10px><br><br>
-      <input type="submit" id="submit" value="Submit"><br><br><br><br>
-      <label id="output">Type the class name like this: CS 1301</label>
-      
-        <ul id="list">
+      <h1>GT ClassHub: Does this class exist?</h1>
+      <div class="grid-container">
+        <div class="grid-item">
+          <label for="className">Enter the class you want to find:</label>
+        </div>
+        <div class="grid-item">
+          <input type="text" id="className" name="className" placeholder="Class Name" padding=10px>
+        </div>
+        <div class="grid-item">
+          <input type="submit" id="submit" value="Submit">
+        </div>  
+        <div class="grid-item">
+          <label id="output">Type the class name like this: CS 1301</label>
+        </div>
+        <div class="grid-item">
+          <ul id="list">
           
-        </ul>
-      
+          </ul>
+        </div>
+      </div>
     </body>
   </div>
 </html>
