@@ -78,21 +78,15 @@ function thing(classname){
    sems.innerHTML = ""
    for(let i=0;i<courses.length;i++){ 
     if(classname in courses[i]){
-         
-         sems.innerHTML += "<item>"+ semesters[i] +"</item>"
+         sems.innerHTML += "<li>"+ semesters[i] +"</li>"
          ans++
        }
    }
    return ans
 }
 
-function semesterList(classname){
-    
-}
-
 button.addEventListener('click',()=>{
    txt = textbox.value
    document.getElementById("output").innerHTML = "This class has been offered in " + thing(txt) + " of the 10 most recent semesters.";
    thing(txt)
-
 })
