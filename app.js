@@ -31,5 +31,6 @@ function thing(classname){
 
 button.addEventListener('click',()=>{
    txt = textbox.value
-   console.log(thing(txt))
+   document.getElementById("output").innerHTML = "This class has been offered a total of " + thing(txt) + " times since Fall 2020.";
+   //console.log(thing(txt))
 })
