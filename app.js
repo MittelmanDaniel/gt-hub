@@ -87,6 +87,6 @@ function thing(classname){
 
 button.addEventListener('click',()=>{
    txt = textbox.value
-   document.getElementById("output").innerHTML = "This class has been offered in " + thing(txt) + " of the 10 most recent semesters.";
+   document.getElementById("output").innerHTML = "This class has been offered in " + thing(txt) + " of the 10 most recent semesters.<br>These are the semesters they were offered in:";
    thing(txt)
 })
