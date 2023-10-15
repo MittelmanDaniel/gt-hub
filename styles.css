@@ -1,17 +1,24 @@
 body {
-    background-color: whitesmoke;
+    background-color: white;
   }
   h1 {
-    color: blue;
+    color: rgb(164, 146, 90);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   ul {
-    color: blue;
+    color: rgb(0, 48, 87);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
   label {
-    color: blue;
+    color: rgb(0, 48, 87);
+    font-size: larger;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  input {
+    color: rgb(0, 48, 87);
+    background-color: rgb(249, 246, 229);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
   }
   body {
     padding: 10px;
