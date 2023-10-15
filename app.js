@@ -19,8 +19,7 @@ const button = document.getElementById('submit');
 
 function thing(classname){
    ans = 0
-   for(let i=0;i<courses.length;i++){
-    //console.log(courses[i])   
+   for(let i=0;i<courses.length;i++){ 
     if(classname in courses[i]){
         
            ans++
@@ -31,6 +30,5 @@ function thing(classname){
 
 button.addEventListener('click',()=>{
    txt = textbox.value
-   document.getElementById("output").innerHTML = "This class has been offered a total of " + thing(txt) + " times since Fall 2020.";
-   //console.log(thing(txt))
+   document.getElementById("output").innerHTML = "This class has been offered in " + thing(txt) + " of the 10 most recent semesters.";
 })
