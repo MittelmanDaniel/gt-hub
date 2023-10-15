@@ -2,19 +2,44 @@
 <html>
   <div>
     <head>
+      <style>
+        .grid-container {
+          display: grid;
+          grid-template-columns: auto;
+          background-color: white;
+          padding: 10px;
+        }
+        .grid-item {
+          background-color: rgba(255, 255, 255, 0.8);
+          border: 0px solid rgba(0, 0, 0, 0.8);
+          padding: 15px;
+          font-size: 18px;
+          text-align: center;
+        }
+        </style>
       <link rel="stylesheet" href="styles.css">
       <script defer src="app.js"></script>
     </head>
     <body>
       <h1>GT ClassHub: Does this class exist?</h1>
-      <label for="className">Enter the class you want to find:</label><br><br>
-      <input type="text" id="className" name="className" placeholder="Class Name" padding=10px><br><br>
-      <input type="submit" id="submit" value="Submit"><br><br><br><br>
-      <label id="output">Type the class name like this: CS 1301</label>
-      <div>
-        <ul id="list">
+      <div class="grid-container">
+        <div class="grid-item">
+          <label for="className">Enter the class you want to find:</label>
+        </div>
+        <div class="grid-item">
+          <input type="text" id="className" name="className" placeholder="Class Name" padding=10px>
+        </div>
+        <div class="grid-item">
+          <input type="submit" id="submit" value="Submit">
+        </div>  
+        <div class="grid-item">
+          <label id="output">Type the class name like this: CS 1301</label>
+        </div>
+        <div class="grid-item">
+          <ul id="list">
           
-        </ul>
+          </ul>
+        </div>
       </div>
     </body>
   </div>
