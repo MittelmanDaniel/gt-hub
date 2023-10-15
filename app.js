@@ -28,6 +28,10 @@ function thing(classname){
    return ans
 }
 
+function semesterList(classname){
+    
+}
+
 button.addEventListener('click',()=>{
    txt = textbox.value
    document.getElementById("output").innerHTML = "This class has been offered in " + thing(txt) + " of the 10 most recent semesters.";
