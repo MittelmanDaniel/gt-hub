@@ -1,0 +1,11 @@
+body {
+    background-color: whitesmoke;
+  }
+  h1 {
+    color: blue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  label {
+    color: goldenrod;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
